@@ -59,15 +59,15 @@ h1 {
   margin-top: 12px;
 }
 
-.button {
+.mainscrin__text.button {
   margin-top: 32px;
   max-width: 274px;
-  padding: 8px 16px;
+  padding: 8px 79px;
   font-size: 18px;
   background-color: #cfc0ab;
   border-radius: 4px;
   font-weight: 700;
-  padding: 16px 40px;
+
   color: 1B1818;
   display: inline-block;
   line-height: 21.8px;
@@ -83,8 +83,6 @@ h1 {
   }
 }
 
-.mainscrin__text button {
-}
 @media (max-width: 700px) {
   .mainscrin__img {
     display: none;
@@ -104,12 +102,19 @@ h1 {
     text-align: center;
   }
   h1 {
-    width: 343px;
+    max-width: 343px;
     height: 78px;
-    margin: 0 auto;
-    margin-top: 434px;
+    margin: 400px auto 0 auto;
     font-size: 32px;
-
     color: #cfc0ab;
+    line-height: 36px;
+  }
+  .first {
+    max-width: 200px;
+    font-size: 18px;
+    line-height: 21.8px;
+    margin: 0 auto;
+    color: #cfc0ab;
+    text-align: center;
   }
 }
