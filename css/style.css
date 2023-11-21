@@ -89,9 +89,10 @@ h1 {
   }
   .mainscrin__text {
     background: none;
+    width: 100%;
   }
   .header__container {
-    /* height: 800px; */
+    width: 100%;
     background: url('/img/IMG_6879 1.png');
     background-size: cover;
     background-repeat: no-repeat;
