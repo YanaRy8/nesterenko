@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+body {
+  font-family: 'Cormorant Garamond', serif;
+  /* font-family: 'Open Sans', sans-serif; */
+
+  color: #1b1818;
+}
+
+.wrapper {
+  position: relative;
+  overflow: hidden;
+  min-height: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+.wrapper > main {
+  flex-grow: 1;
+}
+[class*='__container'] {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.mainscrin {
+  display: flex;
+  flex: 0 1 auto;
+}
+.mainscrin__img img {
+  max-width: 100%;
+}
+.mainscrin__text {
+  /* max-width: 884px; */
+  background-color: #f9f2e2;
+}
+.center {
+  text-align: center;
+}
+.firstblock {
+  font-size: 32px;
+  text-transform: uppercase;
+  padding-left: 11px;
+  padding-top: 58px;
+  line-height: 38.75px;
+}
+h1 {
+  max-width: 738px;
+  margin-top: 170px;
+  font-size: 64px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 77.5px;
+}
+.first {
+  font-size: 24px;
+  line-height: 29.06px;
+  margin-top: 12px;
+}
+
+.button {
+  margin-top: 32px;
+  max-width: 274px;
+  padding: 8px 16px;
+  font-size: 18px;
+  background-color: #cfc0ab;
+  border-radius: 4px;
+  font-weight: 700;
+  padding: 16px 40px;
+  color: 1B1818;
+  display: inline-block;
+  line-height: 21.8px;
+}
+@media (max-width: 990px) {
+  .firstblock {
+    font-size: 20px;
+  }
+  h1 {
+    font-size: 44px;
+    margin-top: 80px;
+    line-height: 50px;
+  }
+}
+
+.mainscrin__text button {
+}
+@media (max-width: 700px) {
+  .mainscrin__img {
+    display: none;
+  }
+  .mainscrin__text {
+    background: none;
+  }
+  .header__container {
+    /* height: 800px; */
+    background: url('/img/IMG_6879 1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .firstblock {
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  h1 {
+    width: 343px;
+    height: 78px;
+    margin: 0 auto;
+    margin-top: 434px;
+    font-size: 32px;
+
+    color: #cfc0ab;
+  }
+}
