@@ -32,7 +32,6 @@ body {
   max-width: 100%;
 }
 .mainscrin__text {
-  /* max-width: 884px; */
   background-color: #f9f2e2;
 }
 .center {
@@ -82,7 +81,6 @@ h1 {
     line-height: 50px;
   }
 }
-
 @media (max-width: 700px) {
   .mainscrin__img {
     display: none;
@@ -93,29 +91,50 @@ h1 {
   }
   .header__container {
     width: 100%;
-    background: url('/img/IMG_6879 1.png');
+    background: url('/img/blur.jpg');
     background-size: cover;
     background-repeat: no-repeat;
   }
   .firstblock {
-    font-size: 24px;
+    font-size: 34px;
     text-transform: uppercase;
     text-align: center;
   }
   h1 {
     max-width: 343px;
     height: 78px;
-    margin: 400px auto 0 auto;
-    font-size: 32px;
+    margin: 800px auto 0 auto;
+    font-size: 46px;
     color: #cfc0ab;
-    line-height: 36px;
+    line-height: 46px;
   }
   .first {
     max-width: 200px;
     font-size: 18px;
     line-height: 21.8px;
-    margin: 0 auto;
+    margin: 20px auto 0px auto;
     color: #cfc0ab;
     text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .firstblock {
+    font-size: 24px;
+  }
+  h1 {
+    margin: 670px auto 0 auto;
+    font-size: 32px;
+    line-height: 36px;
+  }
+  .first {
+    line-height: 21.8px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 430px) {
+  h1 {
+    margin: 370px auto 0 auto;
   }
 }
