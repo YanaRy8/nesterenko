@@ -134,6 +134,9 @@ h1 {
 }
 
 @media (max-width: 430px) {
+  .firstblock {
+    padding-top: 28px;
+  }
   h1 {
     margin: 370px auto 0 auto;
   }
